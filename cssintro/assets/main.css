@@ -1,0 +1,123 @@
+html {
+    background-image: linear-gradient(to right, #285cec,#0000ff,#1488df,#68abf8,#00365e,#77cbda,#209fba,#000048,#380878,#600870,#300030,#980038,#001a33,#003366,#004080,#0059b3,#0066cc);
+    font-family: "Comic Sans MS","Comic Sans";
+}
+
+.headerimg {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+
+   
+}
+
+.centergreen {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    background-color: rosybrown;
+    padding: 20px;
+}
+.container {
+    height: 200px;
+    position: relative;
+    
+}
+
+.listboxheader {
+    color: chartreuse;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.centerblue {
+    margin: auto;
+    width: 50%;
+    border: 3px solid blue;
+    padding: 20px;
+}
+
+.textwhite {
+    color: white;
+}
+
+.textdarkblue {
+    color: darkblue;
+}
+
+.textbrightyellow {
+    color: yellow;
+}
+
+.list {
+    
+    list-style-position: inside;
+}
+.button {
+
+    background-color: fuchsia;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.grid-container {
+    display: grid;
+    gap: 30px 30px;
+    
+}
+.item1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.item2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.item3 {
+    grid-area: 1 / 2 / 2 / 4;
+}
+.item4 {
+    grid-area: 1 / 2 / 2 / 5;
+}
+
+h1 {
+    color: green;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: purple;
+}
+
+h4 {
+    color: cornflowerblue
+}
+
+h5 {
+    color: brown;
+}
+
+h6 {
+    color: darkgoldenrod;
+}
+
+p {
+    color: white;
+}
+
+
