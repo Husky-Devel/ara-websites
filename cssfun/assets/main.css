@@ -1,0 +1,136 @@
+html {
+    background-color: lightslategray;
+    font-family: "Comic Sans MS","Comic Sans";
+}
+
+.fontch {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.headerimg {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+
+   
+}
+
+.alignright {
+    text-align: right;
+}
+.horridbord {
+    border: 10px dotted rgb(255, 0, 242);
+}
+
+.horriddiv {
+    border: 50px solid purple;
+    margin: 50px;
+    padding: 50px;
+    color: blueviolet;
+    background-color: rgb(255, 0, 234);
+    width: 450px;
+    height: 450px;
+}
+.padding {
+    padding: 50px;
+}
+
+.margin {
+    margin: 50px;
+}
+#p2border {
+    background-color: yellow;
+    border: 35px dashed rgb(0, 26, 255);
+}
+
+.lowercase {
+    text-transform: uppercase;
+}
+
+.centergreen {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    background-color: rosybrown;
+    padding: 20px;
+}
+.container {
+    height: 200px;
+    position: relative;
+    
+}
+
+.listboxheader {
+    color: chartreuse;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.centerblue {
+    margin: auto;
+    width: 50%;
+    border: 3px solid blue;
+    padding: 20px;
+}
+
+.textwhite {
+    color: white;
+}
+
+.textdarkblue {
+    color: darkblue;
+}
+
+.textbrightyellow {
+    color: yellow;
+    
+}
+
+/* p {
+    background-color: yellow;
+    color: black;
+} */
+
+.list {
+    
+    list-style-position: inside;
+}
+.button {
+
+    background-color: fuchsia;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.grid-container {
+    display: grid;
+    gap: 30px 30px;
+    
+}
+.item1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.item2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.item3 {
+    grid-area: 1 / 2 / 2 / 4;
+}
+.item4 {
+    grid-area: 1 / 2 / 2 / 5;
+}
+

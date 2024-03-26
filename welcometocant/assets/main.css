@@ -1,3 +1,6 @@
+.right {
+    text-align: center;
+}
 .grid-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
